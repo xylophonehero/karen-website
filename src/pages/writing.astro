@@ -4,6 +4,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import Brands from '~/components/widgets/Brands.astro';
 
 const metadata = {
   title: 'Writing',
@@ -18,6 +19,46 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
       alt: 'AstroWind Hero Image',
     }}
+  />
+
+  <Brands
+    title="Partnerships & Collaborations"
+    subtitle="At Astrowind, we believe in the power of collaboration to drive innovation and create exceptional experiences."
+    icons={[]}
+    images={[
+      {
+        src: '~/assets/images/brands/Nat-Geo.svg',
+        alt: 'National Geographic Traveller',
+      },
+      {
+        src: '~/assets/images/brands/ABTA.svg',
+        alt: 'ABTA',
+      },
+      {
+        src: '~/assets/images/brands/Flight-Center.svg',
+        alt: 'Flight Center',
+      },
+      {
+        src: '~/assets/images/brands/HAL.svg',
+        alt: 'Holland America Line',
+      },
+      {
+        src: '~/assets/images/brands/Planetd.svg',
+        alt: 'The PlanetD',
+      },
+      {
+        src: '~/assets/images/brands/Postcards.svg',
+        alt: 'Postcards',
+      },
+      {
+        src: '~/assets/images/brands/apl-media.svg',
+        alt: 'Apl media',
+      },
+      {
+        src: '~/assets/images/brands/asta.svg',
+        alt: 'Asta',
+      }
+    ]}
   />
 
   <Features2
